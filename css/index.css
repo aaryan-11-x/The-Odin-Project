@@ -1,0 +1,14 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: fuchsia;
+}
+
+a {
+    color: lightslategray;
+    text-decoration: none;
+}
