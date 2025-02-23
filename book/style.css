@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 20px 0;
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  /* Button Styles */
+  button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #2980b9;
+  }
+  
+  /* Form Container */
+  .form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    width: 300px;
+  }
+  
+  .form-container.hidden {
+    display: none;
+  }
+  
+  /* Form Styles */
+  #form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #form label {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  #form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  #form input[type="checkbox"] {
+    width: auto;
+    margin-left: 10px;
+  }
+  
+  #form button {
+    background: #27ae60;
+    margin-top: 10px;
+  }
+  
+  #form button:hover {
+    background: #219653;
+  }
+  
+  /* Library Container */
+  #library-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  /* Book Card Styles */
+  .book-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .book-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .book-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .book-card button {
+    margin: 5px 0;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  
+  .book-card button:nth-child(4) {
+    background: #e74c3c;
+  }
+  
+  .book-card button:nth-child(4):hover {
+    background: #c0392b;
+  }
+  
+  .book-card button:nth-child(5) {
+    background: #f39c12;
+  }
+  
+  .book-card button:nth-child(5):hover {
+    background: #e67e22;
+  }
